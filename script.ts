@@ -53,6 +53,8 @@ let union2: UnionType1 = 10;
 //9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
 console.log("Esercizio 9");
 type date = string | number;
+type WeekDay = 'Lunedi'| 'Martedi' |'Mercoledi'|'Giovedi' |'Venerdi'| 'Sabato'| 'Domenica'
+const day :WeekDay = 'Mercoledi'  //POST DEBRIEF
 
 //10) Tipizza il seguente array di numeri nei due modi possibili: const numbers = [1, 2, 3]
 console.log("Esercizio 10");
